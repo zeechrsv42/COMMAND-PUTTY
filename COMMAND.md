@@ -38,3 +38,8 @@ DB
 
 
 LANJUTAN WEB TO EXTERNAL
+nano /var/www/html/moodle/config.php
+
+$CFG->wwwroot = 'http://' .$_SERVER['HTTP_HOST'] . '/moodle' ;
+
+ctrl X -> Y
