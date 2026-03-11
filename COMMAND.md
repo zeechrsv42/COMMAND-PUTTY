@@ -29,7 +29,7 @@ DB
 (4) nano /etc/mysql/mariadb.conf.d/50-server.cnf (di ganti bind-address= 0.0.0.0)
 (5) systemctl restart mariadb
 (6) mysql
-(7) CREATE DATABASE moodle DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci
+(7) CREATE DATABASE moodle DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 (8) CREATE USER 'zefanya'@'%' IDENTIFIED BY '12345678' ;
 (9) GRANT ALL PRIVILEGES ON moodle.* TO 'zefanya'@'%';
 (10) FLUSH PRIVILEGES ;
